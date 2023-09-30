@@ -1,0 +1,74 @@
+/* Write your code here. */
+.loss-container {
+  background-color: #ffffff33;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff30;
+  padding: 20px;
+  border-radius: 14px;
+
+  margin: 20px;
+}
+.loss-image {
+  width: 200px;
+}
+.lose-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+}
+.loss-score {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+}
+.span {
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #6a59ff;
+}
+.play-button {
+  background-color: #ffce27;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 90px;
+  height: 36px;
+  padding: 2px;
+  color: #3d3d3d;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+}
+@media screen and (max-width: 767px) {
+  .medium-image {
+    display: none;
+  }
+  .small-containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .small-image {
+    display: none;
+  }
+  .loss-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+  .small-containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

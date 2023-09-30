@@ -1,0 +1,26 @@
+/* Write your code here. */
+.emoji-cont {
+  background-color: #ffffff33;
+  padding: 10px;
+  margin: 4px;
+  border-style: solid;
+  border-color: #ffffff30;
+  border-radius: 14px;
+  border-width: 2px;
+}
+.image-emoji {
+  height: 50px;
+  width: 50px;
+}
+.button {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .image-emoji {
+    height: 120px;
+    width: 120px;
+  }
+}
